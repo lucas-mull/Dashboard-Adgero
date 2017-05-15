@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Dashboard Adgero</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <!--Strings used in the device picking activity-->
+    <string name="paired_devices">Paired devices</string>
+    <string name="devices">Devices</string>
+    <string name="no_paired_device">No paired device</string>
+
+    <!--Placeholders for text and numbers-->
+    <string name="placeholder">Placeholder</string>
+    <string name="number_placeholder">56%</string>
+
+    <!--Strings used in the main activity-->
+    <string name="energy_status">Energy</string>
+    <string name="battery_percentage">Battery</string>
+    <string name="delivery">Delivery</string>
+    <string name="storage">Storage</string>
+    <string name="percentage">%d%%</string>
+    <string name="app_status_inactive">Inactive</string>
+    <string name="app_status_ok">Active</string>
+    <string name="app_status_standby">Stand-by</string>
+    <string name="title_activity_remove_me">RemoveMeActivity</string>
+
+    <string name="pick_mode_header">Please pick the data transmission mode you wish to use :</string>
+    <string name="pick_device">Please pick the device to connect to :</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="direct_wifi">Direct WiFi</string>
+    <string name="simulation">Simulation</string>
+</resources>

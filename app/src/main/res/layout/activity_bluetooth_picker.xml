@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ensiie.adgerodashboard.Activities.BluetoothPickerActivity">
+
+    <TextView
+        android:id="@+id/pairedDevicesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/paired_devices"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/noPairedDeviceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pairedDevicesTitle"
+        android:text="@string/no_paired_device"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pairedDevicesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/pairedDevicesTitle"/>
+
+    <TextView
+        android:id="@+id/discoverDevicesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pairedDevicesRecyclerView"
+        android:text="@string/devices"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/colorAccent"/>
+
+    <ProgressBar
+        android:id="@+id/discoveryProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/discoverDevicesTitle"
+        android:layout_alignBottom="@id/discoverDevicesTitle"/>
+
+    <ImageButton
+        android:id="@+id/discoveryRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/discoveryProgress"
+        android:layout_alignEnd="@id/discoveryProgress"
+        android:layout_alignLeft="@id/discoveryProgress"
+        android:layout_alignStart="@id/discoveryProgress"
+        android:layout_alignTop="@id/discoverDevicesTitle"
+        android:layout_alignBottom="@id/discoverDevicesTitle"
+        android:src="@drawable/ic_refresh_black_24dp"
+        android:background="@color/transparent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/discoverDevicesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/discoverDevicesTitle"/>
+
+</RelativeLayout>

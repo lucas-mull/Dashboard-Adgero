@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ensiie.adgerodashboard.Activities.ModePickerActivity">
+
+    <TextView
+        android:id="@+id/pickModeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/pick_mode_header"/>
+
+    <ImageView
+        android:id="@+id/bluetoothIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pickModeHeader"
+        android:padding="8dp"
+        android:src="@drawable/ic_bluetooth_black_24dp"/>
+
+    <TextView
+        android:id="@+id/bluetoothTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_toRightOf="@id/bluetoothIcon"
+        android:layout_toEndOf="@id/bluetoothIcon"
+        android:layout_alignBottom="@id/bluetoothIcon"
+        android:layout_alignTop="@id/bluetoothIcon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/bluetooth"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/bluetoothButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/bluetoothTitle"
+        android:layout_alignEnd="@id/bluetoothTitle"
+        android:layout_alignLeft="@id/bluetoothIcon"
+        android:layout_alignStart="@id/bluetoothIcon"
+        android:layout_alignBottom="@id/bluetoothIcon"
+        android:layout_alignTop="@id/bluetoothIcon"
+        android:background="@color/transparent"/>
+
+    <ImageView
+        android:id="@+id/directWifiIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bluetoothButton"
+        android:padding="8dp"
+        android:src="@drawable/ic_wifi_black_24dp"/>
+
+    <TextView
+        android:id="@+id/directWifiTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_toRightOf="@id/directWifiIcon"
+        android:layout_toEndOf="@id/directWifiIcon"
+        android:layout_alignBottom="@id/directWifiIcon"
+        android:layout_alignTop="@id/directWifiIcon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/direct_wifi"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/directWifiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/directWifiTitle"
+        android:layout_alignEnd="@id/directWifiTitle"
+        android:layout_alignLeft="@id/directWifiIcon"
+        android:layout_alignStart="@id/directWifiIcon"
+        android:layout_alignBottom="@id/directWifiIcon"
+        android:layout_alignTop="@id/directWifiIcon"
+        android:background="@color/transparent"/>
+
+    <ImageView
+        android:id="@+id/simulationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/directWifiButton"
+        android:padding="8dp"
+        android:src="@drawable/ic_timeline_black_24dp"/>
+
+    <TextView
+        android:id="@+id/simulationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_toRightOf="@id/simulationIcon"
+        android:layout_toEndOf="@id/simulationIcon"
+        android:layout_alignBottom="@id/simulationIcon"
+        android:layout_alignTop="@id/simulationIcon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/simulation"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/simulationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/simulationTitle"
+        android:layout_alignEnd="@id/simulationTitle"
+        android:layout_alignLeft="@id/simulationIcon"
+        android:layout_alignStart="@id/simulationIcon"
+        android:layout_alignBottom="@id/simulationIcon"
+        android:layout_alignTop="@id/simulationIcon"
+        android:background="@color/transparent"/>
+
+</RelativeLayout>

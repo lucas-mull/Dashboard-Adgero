@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme colors-->
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FF6F00</color>
+    <color name="colorAccent">#F44336</color>
+
+    <!--Colors for the Seek arcs (delivery and storage)-->
+    <color name="colorStorage">#8BC34A</color>
+    <color name="colorDelivery">#3F51B5</color>
+    <color name="gaugeBackground">#be212121</color>
+
+    <!--Generic colors-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--Colors for the battery icon (low and normal)-->
+    <color name="batteryGreen">#4CAF50</color>
+    <color name="batteryRed">#F44336</color>
+</resources>
