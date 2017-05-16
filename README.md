@@ -3,20 +3,22 @@ A Dashboard for a truck KERS by the Adgero Company.
 
 <h1>What is this ?</h1>
 
-![App screenshot](/screenshots/simulation-2.png)
+![App screenshot](/Screenshots/simulation-2.png)
 
 This app is a dashboard for a KERS used in trucks by the Adgero company.
 In its current state, this is simply a straight-up user interface for display realtime data to the user. A simulation mode allows to test the UI in action.
 
 The connexion between the KERS system and the app remains to be done. Although discovering devices with Bluetooth and peers with WiFi Direct is possible already, no connexion can be established yet.
 
+You can see screenshots of this app in the [Screenshots](/Screenshots) folder. The interface shoud be responsive for smartphones AND tablets.
+
 <h1>How do I use this app ?</h1>
 
 Again, in its current state, the only thing you can do is discover devices and visualize a simulation of the UI in action.
 * To discover devices, simply click on the desired method on the welcome screen.
-![Welcome screen](/screenshots/welcome_screen.png)
+![Welcome screen](/Screenshots/welcome_screen.png)
 * To view the interface in action, press the simulation button at the start. Then, you will see two buttons at the bottom right of the screen. One is used to simulate an acceleration (upward arrow), the other to simulate braking (downard arrow).
-![Simulation screen](/screenshots/simulation-1.png)
+![Simulation screen](/Screenshots/simulation-1.png)
 
 <h1>How does it work ?</h1>
 
