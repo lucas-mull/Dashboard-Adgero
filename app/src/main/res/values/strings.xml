@@ -2,7 +2,7 @@
     <string name="app_name">Dashboard Adgero</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
 
-    <!--Strings used in the device picking activity-->
+    <!--Strings used in the bluetooth device picking activity-->
     <string name="paired_devices">Paired devices</string>
     <string name="devices">Devices</string>
     <string name="no_paired_device">No paired device</string>
@@ -13,15 +13,17 @@
 
     <!--Strings used in the main activity-->
     <string name="energy_status">Energy</string>
-    <string name="battery_percentage">Battery</string>
-    <string name="delivery">Delivery</string>
-    <string name="storage">Storage</string>
+    <string name="battery_percentage">Energy storage</string>
+    <string name="delivery">Boost</string>
+    <string name="storage">Recovery</string>
     <string name="percentage">%d%%</string>
-    <string name="app_status_inactive">Inactive</string>
-    <string name="app_status_ok">Active</string>
-    <string name="app_status_standby">Stand-by</string>
-    <string name="title_activity_remove_me">RemoveMeActivity</string>
 
+    <!--System status-->
+    <string name="app_status_inactive">System Fault, Stop Vehicle</string>
+    <string name="app_status_ok">System Active</string>
+    <string name="app_status_standby">System Inactive</string>
+
+    <!--Strings used in the mode picking activity-->
     <string name="pick_mode_header">Please pick the data transmission mode you wish to use :</string>
     <string name="pick_device">Please pick the device to connect to :</string>
     <string name="bluetooth">Bluetooth</string>

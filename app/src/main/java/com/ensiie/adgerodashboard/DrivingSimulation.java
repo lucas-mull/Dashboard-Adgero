@@ -81,7 +81,7 @@ public class DrivingSimulation {
             while(System.currentTimeMillis() < end)
             {
                 storageRatio += 0.2f;
-                batteryPercentage -= 0.05f;
+                batteryPercentage += 0.05f;
                 DataSingleton.Instance.setStorageRatio(storageRatio);
                 DataSingleton.Instance.setBatteryPercentage(batteryPercentage);
                 try {
@@ -137,7 +137,7 @@ public class DrivingSimulation {
             while(System.currentTimeMillis() < end)
             {
                 deliveryRatio += 0.2f;
-                batteryPercentage += 0.1f;
+                batteryPercentage -= 0.1f;
                 DataSingleton.Instance.setDeliveryRatio(deliveryRatio);
                 DataSingleton.Instance.setBatteryPercentage(batteryPercentage);
                 try {

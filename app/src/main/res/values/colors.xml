@@ -7,7 +7,7 @@
 
     <!--Colors for the Seek arcs (delivery and storage)-->
     <color name="colorStorage">#8BC34A</color>
-    <color name="colorDelivery">#3F51B5</color>
+    <color name="colorDelivery">#03A9F4</color>
     <color name="gaugeBackground">#be212121</color>
 
     <!--Generic colors-->

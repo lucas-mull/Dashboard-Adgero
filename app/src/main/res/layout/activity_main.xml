@@ -57,7 +57,7 @@
                 android:gravity="center"/>
 
             <com.triggertrap.seekarc.SeekArc
-                android:id="@+id/seekArcStorage"
+                android:id="@+id/seekArcDelivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/energyStatusTitle"
@@ -76,7 +76,7 @@
                 app:enabled="false"/>
 
             <com.triggertrap.seekarc.SeekArc
-                android:id="@+id/seekArcDelivery"
+                android:id="@+id/seekArcStorage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/energyStatusTitle"
@@ -171,7 +171,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
-                app:backgroundTint="@color/colorDelivery"
+                app:backgroundTint="@color/colorStorage"
                 android:layout_marginBottom="4dp"
                 android:src="@drawable/ic_trending_down_white_24dp"/>
 
@@ -183,7 +183,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_above="@id/fabBrake"
                 android:layout_marginBottom="4dp"
-                app:backgroundTint="@color/colorStorage"
+                app:backgroundTint="@color/colorDelivery"
                 android:src="@drawable/ic_trending_up_white_24dp"/>
 
         </RelativeLayout>
