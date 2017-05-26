@@ -4,6 +4,7 @@ A Dashboard for a truck KERS by the Adgero Company.
 <h1>What is this ?</h1>
 
 ![App screenshot](/Screenshots/simulation-2.png)
+![App screenshot landscape](/Screenshots/simulation-landscape.png)
 
 This app is a dashboard for a KERS used in trucks by the Adgero company.
 In its current state, this is simply a straight-up user interface for display realtime data to the user. A simulation mode allows to test the UI in action.
@@ -16,8 +17,11 @@ You can see screenshots of this app in the [Screenshots](/Screenshots) folder. T
 
 Again, in its current state, the only thing you can do is discover devices and visualize a simulation of the UI in action.
 * To discover devices, simply click on the desired method on the welcome screen.
+
 ![Welcome screen](/Screenshots/welcome_screen.png)
+
 * To view the interface in action, press the simulation button at the start. Then, you will see two buttons at the bottom right of the screen. One is used to simulate an acceleration (upward arrow), the other to simulate braking (downard arrow).
+
 ![Simulation screen](/Screenshots/simulation-1.png)
 
 <h1>How does it work ?</h1>
@@ -26,7 +30,7 @@ The data that will be used to update the UI is stored in a Singleton [Data Singl
 
 From there, a background Thread located in [the MainActivity](/app/src/main/java/com/ensiie/adgerodashboard/Activities/MainActivity.java) will periodically update the UI with the Singleton's data. The period can be sped up or slowed down to your liking. Simply change the value of REFRESH_RATE_MILLIS to whatever value suits you. Keep in mind that the lower the value, the lower the performance.
 
-<h1>How can I make it work ?</h1>
+<h1>How do I finish it ?</h1>
 
 Once you are decided with the communication method you want to use, here what remains to be done and how to do it :
 * Establish a connexion between the communication card and the app. For this, you can check the Android [Bluetooth API](https://developer.android.com/guide/topics/connectivity/bluetooth.html) or [Direct Wifi API](https://developer.android.com/guide/topics/connectivity/wifip2p.html) depending on what you will be using.
@@ -44,4 +48,4 @@ The code should be sufficiently commented, but if you are struggling with anythi
 <h1>Credits</h1>
 
 This project was a group project made by Mebarek Agag, Mounir Charhrouchni, Sophie Ledos and Lucas Mull.
-Thank you to Mack Murray, the president of Adgero, and Frederic Soullier, our tutor, for their precious help throughout the project.
+Thank you to Mack Murray, the president of Adgero, and Frederic Soulier, our tutor, for their precious help throughout the project.
